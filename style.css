@@ -52,9 +52,11 @@ body{
    color: black; 
 }
 
-.cuadrado2{
-
+.columnas{
+    flex-direction: column;
+    display: grid;
 }
+
 .cuadrado1{
     margin-left: 3em;
     background-color: white;
