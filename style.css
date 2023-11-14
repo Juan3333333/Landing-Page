@@ -60,7 +60,8 @@ body{
     text-align: center;
     flex-direction: row;
     color:black;
-    padding-top: 5em;
+    padding-top: 2em;
+    padding-bottom: 1em;
 }
 
 h1{
@@ -81,9 +82,10 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    width: 10em;
 }
-.ThinGF63{
-    border: 0.1em solid black;
-    font-size: 2em;
+
+
+h2{
+    text-align: center;
+    font-size: 3em;
 }
