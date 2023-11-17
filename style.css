@@ -1,7 +1,7 @@
 /* * { border: 0.1em solid black; } */
 
 body{
-    background-color: lightsteelblue;
+    background-color:initial;
 }
 
 .container{
@@ -49,6 +49,7 @@ body{
 
 .electrodomestico {
     border: 0.1em solid black;
+    text-align: center;
 }
 
 .electrodomestico img {
@@ -62,6 +63,7 @@ body{
     color:black;
     padding-top: 2em;
     padding-bottom: 1em;
+    border: 0.1em solid black;
 }
 
 h1{
@@ -82,6 +84,8 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    display: flex;
+    justify-content: space-between;    
 }
 
 
@@ -107,6 +111,20 @@ h2{
 
 .columnas2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    border: 0.1em solid black;
+}
+
+.redes{
+    margin-inline-end: 0.2em;
+    padding-inline-end: 1em;
+    align-items: center;
+    flex-grow: 4;
+    display: flex;
+    border: 0.1em solid black;
+    justify-content:space-around;
+    column-gap: 25px;
+    font-size: 1.3em;
     text-align: center;
 }
