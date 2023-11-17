@@ -89,3 +89,24 @@ h2{
     text-align: center;
     font-size: 3em;
 }
+
+
+.sorteo img {
+    width: 50em;
+    height: 40em;
+}  
+
+.electrodomestico1 img{
+    width: 50em;
+    height: 40em;
+}
+
+.centro{
+    text-align: center;
+}
+
+.columnas2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
